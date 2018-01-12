@@ -1,0 +1,23 @@
+/**
+ * Created by cx on 2018/1/10.
+ * Include
+ * description
+ */
+import API from "api";
+import types from "static/js/action-types";
+const ACTIONS = {
+    getMetadata(){
+        return async (dispatch)=>{
+            try{
+                let res = await API.send("dishesAndType",{orgId:"a0668ec7230949528d167cd9bd20a021"});
+                // success
+                dispatch({type:types.HANDLE_METADATA});
+            }catch(e){
+                // error
+                console.log(e);
+            }
+        }
+    }
+}
+
+export default ACTIONS;

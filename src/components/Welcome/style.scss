@@ -1,0 +1,16 @@
+.flashScreen{
+	display: flex;
+	top:0;
+	left:0;
+	right: 0;
+	bottom: 0;
+	z-index: 9998;
+	opacity:1;
+	transition: opacity 1s;
+	background: url("static/image/bg_welcome.png") no-repeat center bottom;
+	background-size: cover;
+	position: fixed;
+	&.loaded{
+		opacity: 0;
+	}
+}

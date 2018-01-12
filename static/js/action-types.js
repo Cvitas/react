@@ -1,0 +1,14 @@
+export const SET_USER_OPENID = 'SET_USER_OPENID'
+export const CONFIG = 'CONFIG'
+export const SLIDE_METHOD = 'SLIDE_METHOD'
+export const HANDLE_METADATA = 'HANDLE_METADATA'
+export const ADD_TO_CART = 'ADD_TO_CART'
+export const REDUCE_FROM_CART = 'REDUCE_FROM_CART'
+export const REDUCE_ALL_CART = 'REDUCE_ALL_CART'
+export const CLICK_DETAIL_DISH = 'CLICK_DETAIL_DISH'
+export const RESERVE_INFO = 'RESERVE_INFO'
+export const RESERVE_RESET = 'RESERVE_RESET'
+export const ORDER_INFO = 'ORDER_INFO'
+export default {
+    HANDLE_METADATA:HANDLE_METADATA
+}
